@@ -1,0 +1,24 @@
+.container-header{
+    display: flex;
+    justify-content: space-between;
+}
+.header-left{
+    display: flex;
+}
+.name-brand{
+    margin-top: 50%;
+}
+
+.header-right{
+}
+.nav{
+    list-style: none;
+    align-self: center;
+}
+.nav li{
+    display: inline;
+}
+.nav li a {
+    text-decoration: none;
+    color: rgb(211, 38, 38);
+}

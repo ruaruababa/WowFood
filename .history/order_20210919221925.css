@@ -1,0 +1,36 @@
+.container-order{
+    position: relative;
+}
+.title-order{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 70px;
+}
+.container-seclect-food{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 100px;
+    justify-content: flex-start;
+    gap: 30px;
+    border: 1px solid white;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+.img-food{
+    display: inline;
+}
+.img-food img{
+    width: 150px;
+    border-radius: 15px;
+}
+.tit
+.price-item{
+    display: block;
+}
+.inp-number{
+    width: 250px;
+    border-radius: 5px;
+}

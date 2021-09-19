@@ -1,0 +1,30 @@
+.container-order{
+    position: relative;
+}
+.title-order{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 70px;
+}
+.container-seclect-food{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 100px;
+    justify-content: flex-start;
+    gap: 30px;
+    border: 1px solid black;
+    padding: ;
+}
+.img-food{
+    display: inline;
+}
+.img-food img{
+    width: 100px;
+    border-radius: 15px;
+}
+.price-item{
+    display: block;
+}

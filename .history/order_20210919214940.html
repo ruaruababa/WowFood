@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Food</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">
+            <img src="./img/logo.png" alt="" class="img-logo" />
+        </label>
+        <ul class="navbar">
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Foods</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <section id=section-order>
+        <img src="./img/bg.jpg" alt="" class="bgr" style="position: absolute;">
+        <div class="container-order">
+            <form action="">
+                <h3 class="title-order">Fill this form to confirm your order</h3>
+                <label for="" class="seclect">Seclect Food</label>
+                <div class="container-seclect-food">
+                    <div class="img-food">
+                        <img src="./img/menu-momo.jpg" alt="" class="bgr-item" />
+                    </div>
+                    <div class="content-food">
+                        <h6 class="title-item">Food title</h6>
+                        <span class="price-item">$2.5</span>
+                        <label for="" class="quantity">Quantity</label>
+                        <input type="number" min="1" max="100">
+                    </div>
+                </div>
+                <div class="container-delivery-title">
+                    <lable class="full-name">Full name</lable>
+                    <input type="text" placeholder="E.g Nguyen Ngoc Giang">
+                    <lable class="phone-number">Phone Number</lable>
+                    <input type="text" placeholder="E.g Nguyen Ngoc Giang">
+                    <lable class="email">Email</lable>
+                    <input type="text" placeholder="E.g Nguyen Ngoc Giang">
+                    <lable class="Address">Address</lable>
+                    <textarea name="address" id="" cols="30" rows="10"></textarea>
+
+
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+.container-order{
+    position: relative;
+}
+.title-order{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 70px;
+}
+.container-seclect-food{
+    display: flex;
+    position: absolute;
+    le
+}

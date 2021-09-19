@@ -1,0 +1,83 @@
+.container-order{
+    position: relative;
+}
+.title-order{
+    font-size: 24px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 70px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+.container-seclect-food::before{
+    content: "Seclect Food";
+    background-color: #47b4d1;
+    position: absolute;
+    margin-top: -40px;
+}
+.container-seclect-food{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 120px;
+    justify-content: flex-start;
+    gap: 30px;
+    border: 1px solid white;
+    padding: 30px 20px;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+}
+.img-food{
+    display: inline;
+}
+.img-food img{
+    width: 100px;
+    border-radius: 15px;
+}
+.title-item{
+    font-size: 20px;
+}
+.price-item{
+    display: block;
+    padding-top: 10px;
+}
+.inp-number{
+    margin-top: 10px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.container-delivery-title::before{
+    content: "Delivery Details";
+    margin-top: -10px;
+    margin-left: ;
+    background-color: #47b4d1;
+    display: inline;
+    position: absolute;
+}
+.container-delivery-title{
+    position: absolute;
+    margin-top: 320px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid white;
+    padding: 30px 20px;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+input{
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px 2px ;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-family: "Poppins", sans-serif;
+}
+label{
+    font-family: "Poppins", sans-serif;
+}
