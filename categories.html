@@ -4,10 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Order Food</title>
+    <title>Categories</title>
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./reset.css" />
-    <link rel="stylesheet" href="./order.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,6 +20,20 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <style>
+      .list-food li img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+
+      .list-food li {
+        width: 350px;
+        height: 400px;
+        transition: 0.2s all;
+      }
+    </style>
   </head>
 
   <body>
@@ -39,61 +52,41 @@
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
-    <section id="section-order">
-      <img
-        src="./bgorder.jpg"
-        alt=""
-        class="bgr"
-        style="position: absolute; z-index: -1; height: 820px"
-      />
-      <div class="container-order">
-        <form action="">
-          <h3 class="title-order">Fill this form to confirm your order</h3>
-          <div class="container-seclect-food">
-            <div class="img-food">
-              <!-- <label for="" class="seclect">Seclect Food</label> -->
-              <img src="./img/menu-momo.jpg" alt="" class="bgr-item" />
-            </div>
-            <div class="content-food">
-              <h6 class="title-item">Food title</h6>
-              <span class="price-item">$2.5</span>
-              <label for="" class="quantity">Quantity</label>
-              <input type="number" min="1" max="100" class="inp-number" />
-            </div>
-          </div>
-          <div class="container-delivery-title">
-            <lable class="full-name">Full name</lable>
-            <input type="text" placeholder="E.g Nguyen Ngoc Giang" />
-            <lable class="phone-number">Phone Number</lable>
-            <input type="text" placeholder="E.g 0934 xxx xxx" />
-            <lable class="email">Email</lable>
-            <input type="text" placeholder="E.g example@gmail.com" />
-            <lable class="Address">Address</lable>
-            <textarea
-              name="address"
-              id=""
-              cols="30"
-              rows="10"
-              placeholder="175 Tay Son, Dong Da"
-              style="resize: none; border-radius: 5px"
-            ></textarea>
-            <input
-              type="button"
-              value="Confirm Order"
-              style="width: 100px; background-color: #e47b69; color: white"
-            />
-          </div>
-        </form>
+    <section id="section-collection">
+      <div class="container-section-collection">
+        <div class="explore-food">Explore Foods</div>
+        <ul class="list-food" style="flex-wrap: wrap; gap: 30px 30px">
+          <li class="item">
+            <img src="./img/pizza.jpg" alt="" /><span>Pizza</span>
+          </li>
+          <li class="item">
+            <img src="./img/burger.jpg" alt="" /><span>Burger</span>
+          </li>
+          <li class="item">
+            <img src="./img/momo.jpg" alt="" /><span>Momo</span>
+          </li>
+          <li class="item">
+            <img src="./img/pizza.jpg" alt="" /><span>Pizza</span>
+          </li>
+          <li class="item">
+            <img src="./img/pizza.jpg" alt="" /><span>Pizza</span>
+          </li>
+          <li class="item">
+            <img src="./img/pizza.jpg" alt="" /><span>Pizza</span>
+          </li>
+          <li class="item">
+            <img src="./img/pizza.jpg" alt="" /><span>Pizza</span>
+          </li>
+          <li class="item">
+            <img src="./img/pizza.jpg" alt="" /><span>Pizza</span>
+          </li>
+          <li class="item">
+            <img src="./img/pizza.jpg" alt="" /><span>Pizza</span>
+          </li>
+        </ul>
       </div>
     </section>
-    <footer
-      style="
-        position: absolute;
-        margin-top: 800px;
-        left: 50%;
-        transform: translateX(-50%);
-      "
-    >
+    <footer style="padding-top: 40px">
       <div class="container-footer">
         <div class="social-network-icon">
           <div class="icon-fb">
